@@ -14,13 +14,13 @@ Repo contains 4 files
 4. server.go
 
 In order to run the program on windows enter this command in this directory
-```bash
+```
 go run server.go cache.go
 ```
 
 In linux you can run the program using command above or use this command
 
-```bash
+```
 go run *.go
 ```
 
