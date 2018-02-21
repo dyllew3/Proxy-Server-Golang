@@ -1,0 +1,24 @@
+<html>
+<h1>Management Console
+</h1>
+
+<body>
+  <p>
+    This is the management console this allows you to view block
+  </p>
+  	<a href="/blocked">View Blocked URLs</a>
+  <p>To add a url to the blocklist enter it here and submit<p>
+  <form action="/" method="post">
+    <input type="text" name="url" value="">
+  <br>
+  <input type="submit" value="Submit">
+  </form>
+
+  <p>To remove a url enter it here and submit<p>
+  <form action="/remove" method="post">
+    <input type="text" name="remove_url" value="">
+  <br>
+  <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
