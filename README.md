@@ -31,4 +31,4 @@ This sections contains information about each file and what it does
 File is the management page for the proxy server. This page contains two forms
 one which allows the user to add a url to the blocklist and the other which allows the user to remove a url from the blocklist. It also has a link to the "/blocked" which displays the blocklist to the user.
 
-## blocked.json
+### blocked.json
