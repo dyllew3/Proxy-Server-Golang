@@ -14,13 +14,13 @@ Repo contains 4 files
 4. server.go
 
 In order to run the program on windows enter this command in this directory
-```
+```bash
 go run server.go cache.go
 ```
 
 In linux you can run the program using command above or use this command
 
-```
+```bash
 go run *.go
 ```
 
@@ -32,3 +32,11 @@ File is the management page for the proxy server. This page contains two forms
 one which allows the user to add a url to the blocklist and the other which allows the user to remove a url from the blocklist. It also has a link to the "/blocked" which displays the blocklist to the user.
 
 ### blocked.json
+The contains the current version of the blocklist in json format like so
+```json
+[{"URL":"example.com"}, {"URL":"anotherone.co.uk"}]
+```
+The json maps the string key **"URL"** to **a string value**
+
+
+### cache.go
